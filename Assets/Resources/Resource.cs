@@ -21,6 +21,11 @@ public class Resource : MonoBehaviour {
         OnValueChange.Invoke();
     }
 
+    public bool CanAfford(int costs)
+    {
+        return costs <= Amount;
+    }
+
     public void RemoveAmount(int amount)
     {
         Amount -= amount;
