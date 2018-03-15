@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Unit : Ownable {
-
+public abstract class Ownable : MonoBehaviour
+{
+	public Player player;
 }

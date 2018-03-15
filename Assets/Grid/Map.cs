@@ -46,4 +46,16 @@ public class Map : MonoBehaviour {
     {
         return transform.GetChild((x * sizeY) + y).GetComponent<Cell>();
     }
+
+    public Cell GetRandomEmptyCell()
+    {
+        Cell cell = GetCell(Random.Range(0, sizeX), Random.Range(0, sizeY));
+
+        while (cell.transform.GetChildCount() != 0)
+        {
+            cell = GetCell(Random.Range(0, sizeX), Random.Range(0, sizeY));
+        }
+
+        return cell;
+    }
 }

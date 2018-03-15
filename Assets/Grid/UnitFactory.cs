@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,9 +7,9 @@ public class UnitFactory : MonoBehaviour {
 
     public Unit prototype;
     public Map map;
+    public Player player;
 
-    public Resource resource;
-    public int costs;
+    public List<ResourceCosts> costs = new List<ResourceCosts>();
 
     public int x;
     public int y;
@@ -16,18 +17,43 @@ public class UnitFactory : MonoBehaviour {
     public void SpawnUnit()
     {
 
-        if (!resource.CanAfford(costs))
+        foreach (var cost in costs)
         {
-            Debug.Log("You be broke boy");
-            return;
+            if (!cost.CanAfford())
+            {
+                Debug.Log("You be broke boy");
+                return;
+            }
         }
 
         Unit newUnit = Instantiate(prototype);
 
-        Cell cell = map.GetCell(x, y);
+        Cell cell = map.GetRandomEmptyCell();
 
         newUnit.transform.SetParent(cell.transform, false);
+        newUnit.player = player;
+        newUnit.GetComponent<Renderer>().material.color = player.color;
 
-        resource.RemoveAmount(costs);
+        foreach (var cost in costs)
+        {
+            cost.Pay();
+        }
+    }
+}
+
+[System.Serializable]
+public class ResourceCosts
+{
+    public Resource Resource;
+    public int Costs;
+
+    public bool CanAfford()
+    {
+        return Resource.CanAfford(Costs);
+    }
+
+    public void Pay()
+    {
+        Resource.RemoveAmount(Costs);
     }
 }
