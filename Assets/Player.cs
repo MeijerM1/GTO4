@@ -10,7 +10,7 @@ public class Player : MonoBehaviour {
 	// Use this for initialization
 	void Awake ()
 	{
-		Color = Random.ColorHSV();
         PlayerName = gameObject.name;
+		Color = Random.ColorHSV();
 	}	
 }

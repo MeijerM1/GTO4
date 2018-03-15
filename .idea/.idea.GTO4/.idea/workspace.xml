@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cf8e1a1-3144-4c1e-a106-55efb0cc5c3c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GTO4/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GTO4/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Grid/UnitFactory.cs" afterPath="$PROJECT_DIR$/Assets/Grid/UnitFactory.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Player.cs" afterPath="$PROJECT_DIR$/Assets/Player.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/Player.prefab" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Player/Player.prefab.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/grid.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/grid.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/TurnManager.cs" afterPath="$PROJECT_DIR$/Assets/TurnManager.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TurnManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TurnManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/TurnManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="438">
@@ -41,15 +35,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
               <folding>
-                <marker date="1521111132395" expanded="true" signature="6:78" ph="..." />
-                <marker date="1521111132395" expanded="true" signature="116:293" ph="{...}" />
-                <marker date="1521111132395" expanded="true" signature="217:290" ph="{...}" />
+                <marker date="1521113910715" expanded="true" signature="6:78" ph="..." />
+                <marker date="1521113910715" expanded="true" signature="116:293" ph="{...}" />
+                <marker date="1521113910715" expanded="true" signature="217:290" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -193,9 +187,9 @@
         <option value="$PROJECT_DIR$/Assets/Grid/Unit.cs" />
         <option value="$PROJECT_DIR$/Assets/Grid/Map.cs" />
         <option value="$PROJECT_DIR$/Assets/Grid/UnitFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/EndTurnButton.cs" />
         <option value="$PROJECT_DIR$/Assets/TurnManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Player.cs" />
       </list>
     </option>
   </component>
@@ -273,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1521102644512</updated>
-      <workItem from="1521102654126" duration="8740000" />
+      <workItem from="1521102654126" duration="8752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8740000" />
+    <option name="totallyTimeSpent" value="8752000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,18 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <marker date="1521111132395" expanded="true" signature="6:78" ph="..." />
-            <marker date="1521111132395" expanded="true" signature="116:293" ph="{...}" />
-            <marker date="1521111132395" expanded="true" signature="217:290" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Resources/Resource.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -465,6 +447,18 @@
             <marker date="1521112890893" expanded="true" signature="1183:1438" ph="{...}" />
             <marker date="1521112890893" expanded="true" signature="1228:1311" ph="{...}" />
             <marker date="1521112890893" expanded="true" signature="1328:1428" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <marker date="1521113910715" expanded="true" signature="6:78" ph="..." />
+            <marker date="1521113910715" expanded="true" signature="116:293" ph="{...}" />
+            <marker date="1521113910715" expanded="true" signature="217:290" ph="{...}" />
           </folding>
         </state>
       </provider>
