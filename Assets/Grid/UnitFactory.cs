@@ -32,7 +32,7 @@ public class UnitFactory : MonoBehaviour {
 
         newUnit.transform.SetParent(cell.transform, false);
         newUnit.player = player;
-        newUnit.GetComponent<Renderer>().material.color = player.color;
+        newUnit.GetComponent<Renderer>().material.color = player.Color;
 
         foreach (var cost in costs)
         {

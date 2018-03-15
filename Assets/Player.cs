@@ -5,12 +5,12 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     public string PlayerName;
-	public Color color;
+	public Color Color;
 
 	// Use this for initialization
 	void Awake ()
 	{
-		color = Random.ColorHSV();
+		Color = Random.ColorHSV();
         PlayerName = gameObject.name;
 	}	
 }
