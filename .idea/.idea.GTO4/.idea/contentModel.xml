@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\max1_\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_GTO4.1512792021.00" t="ExcludeRecursive" />
-    <e p="D:\Repos\GTO4" t="IncludeRecursive">
+    <e p="C:\Users\max1_\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_GTO4.297032352.00" t="ExcludeRecursive" />
+    <e p="E:\Unity projects\GTO4" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
@@ -28,6 +28,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="ResourceUI.cs" t="Include" />
+          <e p="UnitSelector.cs" t="Include" />
         </e>
         <e p="TurnManager.cs" t="Include" />
       </e>
